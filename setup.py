@@ -3,8 +3,6 @@ from os.path import basename
 from os.path import splitext
 from glob import glob
 
-basedir = "."
-
 with open('requirements.txt') as f:
     required = f.read().splitlines()
 
